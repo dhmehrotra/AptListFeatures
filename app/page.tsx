@@ -92,7 +92,7 @@ const mockListings = [
     badges: ["Pet-Friendly", "Gym", "Near Transit"],
     match: "92%",
     imageUrl:
-      "https://images.unsplash.com/photo-1560448071-45ab3cba0e6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "https://sjc.microlink.io/wvxyzW5BZCija9K5iUUrJLuSKdjvHL0SE17QCYJsUh8Mcd4x-GHqO-4wTGySoA6wAXS-D8FcWVxTCk2aMan7dg.jpeg",
     bedrooms: 2,
     bathrooms: 2,
     sqft: "1,100",
@@ -150,7 +150,7 @@ const neighborhoodData = {
     parks: ["Dolores Park", "Garfield Square"],
     aiMatch: 89,
     imageUrl:
-      "https://images.unsplash.com/photo-1583349461686-02929b0b3f0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "https://sjc.microlink.io/HwUhmXNdXW1ZtkIanJ0WFinSmWV1wPLMkj6b9Pl3scRA4kR7RIxGsWZ7SvgE4I37qUqVx7Cx86hDY3kXnRYBSg.jpeg",
     badges: ["Transit Access", "Cultural Hub", "Nightlife"],
     highlights: ["24th Street BART", "Mission Dolores", "Street Art Tours"],
   },
