@@ -2006,13 +2006,17 @@ export default function AIRentalAdvisor() {
                             loading="lazy"
                           />
 
-                          {/* Add the map image here */}
-                          <img
-                            src="https://source.unsplash.com/300x150/?map,neighborhood"
-                            alt={`Map of ${selectedNeighborhood}`}
-                            className="w-full rounded-md mt-3"
-                            loading="lazy"
-                          />
+                          {/* Replace the existing map image */}
+                          <div className="mt-4">
+                            <img
+                              src="/placeholder.svg?height=300&width=600&query=neighborhood map city urban"
+                              alt="Neighborhood Map"
+                              className="w-full h-40 object-cover rounded-md"
+                            />
+                            <p className="text-xs text-gray-500 mt-1 text-center">
+                              📍 Map preview of {selectedNeighborhood}
+                            </p>
+                          </div>
 
                           <div className="grid grid-cols-2 gap-4 text-sm">
                             <div className="space-y-2">
